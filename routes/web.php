@@ -55,4 +55,3 @@ Route::get('/', [PDFController::class, 'index']);
 
 Route::get('/imena', [StudentController::class, 'index']);
 
-Route::get('/weather/{city}', 'App\Http\Controllers\WeatherController@getWeather');
